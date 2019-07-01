@@ -190,7 +190,12 @@ footer {
     font-size: 4rem;
   }
 }
-
+@media (max-width: 991px) {
+  .call-number {
+    margin-top: 5px;
+    display: block;
+  }
+}
 .bg-primary {
 /*  background-color: #ee0979 !important;*/
 }
